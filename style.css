@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 20px ;
+    box-shadow: 2px 2px 2px  (0, 0, 0, 0.2) ;
+}
+ul {
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    
+    
+}
+header h2 {
+font-size: 32px;
+}
+#cording{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cording h2{
+    font-size: xx-large;
+    gap: 2rem;
+}
+#cording div:first-child {
+    text-align: center;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 25px;
+    color:black;
+}
+header h2 span {
+color:darkorange;
+
+}
+a {
+text-decoration: none;    
+}
+.navbar-link {
+    color: chocolate;
+    gap: 32px;
+    display: flex;
+    
+}
+.homepage {
+    background-image: url( https://www.publicdomainpictures.net/pictures/150000/velka/delicious-meal.jpg);
+    height: 90vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    gap: 20px; 
+}
+.homepage h1 {
+    font-size: 50px;
+
+}
+.homepage p {
+    font-size: 20px;
+    width: 350px;
+    color:black;
+    text-align: right ;
+}
+.home-buttons .order-1{
+font-size: 1rem;
+background-color: chocolate;
+border-radius: 6px;
+margin-top: 38px;
+font-weight: 500;
+cursor: pointer;
+transition: 0.2s ease;
+color: white;
+padding: 12px 30px;
+
+}
+.home-buttons .order-1:hover {
+    background: white;
+}
+.home-buttons .order-2{
+    border-color: transparent;
+    color: orange;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: 2px solid orange;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+}
+.home-buttons .order-2:hover{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background: #ff7f00;
+}
+main>section{
+    display: flex;
+    margin: 8%;
+    gap: 9%;
+}
+main>section>.about {
+    padding-top: 10%;
+    
+
+}
+main>section> .about>button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-style: none;
+    margin: 10px;
+}
+main>section> .about>button:hover{
+    background: orangered;
+} 
+
+.card-content1{
+    background-color:gainsboro;
+    margin: 2%;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 15%;
+    
+    
+}
+.card-content1:hover{
+    background: #ff7f00;
+    
+    
+
+}
+.card-content2{
+    background-color:gainsboro;
+    margin: 2%;
+    border-radius:10px;
+    width: 250px;
+    height: 250px;
+    padding: 15%;
+}
+.card-content2:hover{
+    background: #ff7f00;
+
+}
+.card-content3{
+background-color: gainsboro;
+margin: 2%;
+border-radius: 10%;
+width: 250px;
+height: 250px;
+padding: 15%;
+}
+.card-content3:hover{
+    background: #ff7f00;
+}
+
+.cards-content{
+    display: flex;
+    gap:9% ;
+    margin: 8%;
+    
+}.cards-content{
+    display: flex;
+}
+.cards-menu{
+    display: flex;
+    gap: 2rem;
+}
+
+ button{
+    background-color:#ff7f00;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-style: none;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: flex-end;
+     
+ }
+ button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+ }
+
+.menu-content3{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+.menu-content3 img{
+    width: 100%;
+}
+ .demo{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-bottom: 20px;
+ }
+ .demo h3{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .demo p{
+    font-size: 16px;
+ }
+
+ .menu-content4{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+.menu-content4 img{
+    width: 100%;
+}
+ .dim{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-bottom: 20px;
+ }
+ .dim h4{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .dim p{
+    font-size: 16px;
+ }
+ .menu-content1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+.menu-content1 img{
+    width: 100%;
+}
+ .description{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-bottom: 20px;
+ }
+ .description h1{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .description p{
+    font-size: 16px;
+ }
+ .menu-content2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+}
+.menu-content2 img{
+    width: 100%;
+}
+ .delivary{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    margin-bottom: 20px;
+    
+ }
+ .delivary h2{
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .delivary p{
+    font-size: 16px;
+ }
+
+ .wants{
+ 
+    
+ }
+ 
+ .daily{
+  display: flex; 
+  flex-direction: column; 
+  background-color: grey; 
+  box-sizing: border-box;
+  padding: 20px;
+ }
+ .daily img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+
+ 
+ 
